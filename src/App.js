@@ -1,6 +1,15 @@
+import Container from './layout/Container';
+import Navbar from './components/Navbar'
+import Header from './layout/Header'
+
 const App = () => {
   return (
-    <div>hello world!</div>
+    <div>
+      <Container>
+        <Navbar />
+        <Header />
+      </Container>
+    </div>
   )
 }
 

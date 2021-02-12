@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GlobalStyle from './base/GlobalStyle.js'
 
 import App from './App';
 
 
 ReactDOM.render(
-    <App />,
+  <React.Fragment>
+    <GlobalStyle />
+    <App />
+  </React.Fragment>,
   document.getElementById('root')
 );
 
