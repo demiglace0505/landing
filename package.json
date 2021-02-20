@@ -13,6 +13,7 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },
+  "homepage": "https://demiglace0505.github.io/landing/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
