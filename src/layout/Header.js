@@ -84,7 +84,7 @@ const Header = () => {
       </LeftHeader>
 
       <RightHeader>
-        <Heading3>Full Stack Developer</Heading3>
+        <Heading3>Full Stack Web Developer</Heading3>
         <LogoGrid>
           <LogoImg src={logoReact} alt="Reactjs logo" />
           <LogoImg src={logoNode} alt="Nodejs logo" />
